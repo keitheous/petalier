@@ -1,0 +1,29 @@
+h1, h2, h3, p{
+  margin: 0;
+  padding: 0
+}
+
+
+.navbar {
+  background-color: #F8F8FF;
+  overflow: hidden;
+  width: 100%;
+}
+
+.navbar-brand {
+  display: inline-block;
+  margin-left: 2em;
+}
+
+.navbar-items {
+  color: black;
+  float: right;
+  padding-top: 16px;
+  margin-right: 2em;
+}
+
+.nav-item {
+  font-size: 1em;
+  display: inline-block;
+  padding: 0 10px;
+}
