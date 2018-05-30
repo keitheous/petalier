@@ -13,4 +13,11 @@ $( document ).ready(function() {
   $('#nav-icon').on('click', function(){
       $(this).hasClass("fa-bars") ? expendNavBar() : collapseNavBar()
   })
+
+  $(".nav-items").on('click', function(){
+    if ($(window).width() <= 860) {
+      collapseNavBar();
+    }
+  });
+
 });

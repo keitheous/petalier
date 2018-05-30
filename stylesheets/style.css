@@ -68,7 +68,6 @@ h1, h2, h3, p{
 }
 
 .landing-page .heading {
-  /* color: red; */
   text-align: center;
   height: 100%;
   width: 100%;
@@ -103,5 +102,4 @@ a.anchor_offset {
 .footer .footer-content {
   padding: 0 20px;
   letter-spacing: 2px;
-
 }
