@@ -3,27 +3,73 @@ h1, h2, h3, p{
   padding: 0
 }
 
+.nav-bar-space {
+  width: 100%;
+  height: 68px;
+}
 
-.navbar {
-  background-color: #F8F8FF;
+.nav-bar {
+  background-color: #FFE4E1;
   overflow: hidden;
+  padding-left: 50px;
+  position: fixed;
   width: 100%;
 }
 
-.navbar-brand {
+.nav-brand {
+  padding: 14px 0;
   display: inline-block;
-  margin-left: 2em;
+  font-size: 25px;
 }
 
-.navbar-items {
-  color: black;
+.nav-items {
   float: right;
-  padding-top: 16px;
-  margin-right: 2em;
+  display: inline-block;
+  padding: 20px 16px;
+  font-size: 20px;
 }
 
-.nav-item {
-  font-size: 1em;
-  display: inline-block;
-  padding: 0 10px;
+.nav-items a {
+    color: black;
+    text-align: center;
+    margin-right: 30px;
+}
+
+.nav-items a:hover {
+  text-decoration: underline;
+}
+
+.active {
+    text-decoration: underline;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+#nav-icon {
+    display: none;
+}
+
+.landing-page{
+
+  /* waiting for image & Set back color */
+  height: 90vh;
+}
+
+.landing-page .heading {
+  /* color: red; */
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  font-size: 10em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about-section, .price-list-page, .delivery-page, .wedding-page, .faq-page {
+  height: 100vh;
+}
+
+.contact-page {
+  height: 90vh;
 }
