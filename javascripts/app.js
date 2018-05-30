@@ -1,5 +1,11 @@
 $( document ).ready(function() {
 
+  $(window).resize(function() {
+    if ($(window).width() > 860) {
+      $('.nav-items').show()
+    }
+  });
+
   var expendNavBar = function(){
     $('#nav-icon').removeClass('fa-bars').addClass('fa-times');
     $('.nav-items').show()

@@ -56,18 +56,15 @@ h1, h2, h3, p{
     text-decoration: underline;
 }
 
-/* Hide the link that should open and close the topnav on small screens */
 #nav-icon {
     display: none;
 }
 
 .landing-page{
-
-  /* waiting for image & Set back color */
   height: 90vh;
 }
 
-.landing-page .heading {
+.heading {
   text-align: center;
   height: 100%;
   width: 100%;
@@ -75,6 +72,18 @@ h1, h2, h3, p{
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+@media screen and (max-width: 1170px) {
+  .heading {
+    font-size: 8em;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .heading {
+    font-size: 6em;
+  }
 }
 
 a.anchor_offset {
@@ -95,11 +104,11 @@ a.anchor_offset {
   background-color: #FFFAF0;
   overflow: hidden;
   width: 100%;
-  height: 5vh;
+  min-height: 5vh;
   text-align: center;
 }
 
-.footer .footer-content {
+.footer-content {
   padding: 0 20px;
   letter-spacing: 2px;
 }

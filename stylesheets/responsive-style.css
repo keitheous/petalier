@@ -1,10 +1,10 @@
 @media screen and (max-width: 860px) {
 
-  .landing-page .heading {
+  .heading {
     text-align: center;
     height: 100%;
     width: 100%;
-    font-size: 3em;
+    font-size: 4em;
     display: flex;
     flex-direction: column;
     letter-spacing: 3px;
@@ -48,6 +48,18 @@
     padding-top: 5px;
     padding-right: 20px;
   }
+
+  .footer {
+    width: 100%;
+    min-height: 10vh;
+    text-align: center;
+  }
+
+  .footer-content {
+    display: block;
+    padding: 2px;;
+  }
+
 }
 
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
