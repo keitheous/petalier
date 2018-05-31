@@ -53,5 +53,5 @@ $( document ).ready(function() {
   applyRedirectionForQuerySelectors(facebookButtons, 'https://www.facebook.com/the.petalier', 'redirection');
   applyRedirectionForQuerySelectors(instagramButtons, 'https://www.instagram.com/the.petalier', 'redirection');
   applyRedirectionForQuerySelectors(mailButton, 'thepetalier@gmail.com', 'mailto');
-  applyRedirectionForQuerySelectors(mailButton, '+61420325425', 'tel');
+  applyRedirectionForQuerySelectors(phoneButton, '+61420325425', 'tel');
 });
