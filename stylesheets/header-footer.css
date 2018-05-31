@@ -1,6 +1,7 @@
 html {
   background-color: #F5F5F5;
   font-family: 'Raleway', sans-serif;
+  letter-spacing: 1.5px;
 }
 
 h1, h2, h3, p{
@@ -19,6 +20,7 @@ h1, h2, h3, p{
 }
 
 .nav-bar {
+  z-index: 1000;
   background-color: #F5F5F5;
   overflow: hidden;
   padding-left: 50px;
@@ -103,8 +105,9 @@ a.anchor_offset {
 }
 
 .contact-page {
-  height: 85vh;
+  min-height: 85vh;
   background-color: pink;
+  position: relative;
 }
 
 .footer {
@@ -122,3 +125,36 @@ a.anchor_offset {
 
 /* =============== */
 /* =============== */
+
+
+#gmap_canvas {
+  width: 100%;
+  height: 350px !important;
+  padding-top: 10px;
+}
+
+.contact-info {
+  padding-left: 100px;
+}
+
+.sub-heading {
+  text-align: center;
+  padding: 40px 0 60px 0;
+}
+
+.sub-sub-heading {
+  padding: 20px 0;
+}
+
+.social {
+  padding-bottom: 10px;
+}
+
+.social-icon {
+  font-size: 18px !important;
+  padding: 0 10px;
+}
+
+.two-columner {
+  min-height: 400px;
+}

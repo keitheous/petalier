@@ -17,8 +17,8 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
   <!-- Stylesheets -->
-  <link rel="stylesheet" href="stylesheets/style.css">
-  <link rel="stylesheet" href="stylesheets/responsive-style.css">
+  <link rel="stylesheet" href="stylesheets/header-footer.css">
+  <link rel="stylesheet" href="stylesheets/responsive-header-footer.css">
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -90,7 +90,49 @@
   <!-- Contact Page -->
   <a class="anchor_offset" id="contact"></a>
   <div class="contact-page">
-    Contact
+    <div class="container">
+      <div class="row">
+        <h2 class='sub-heading'>Contact Us</h2>
+      </div>
+
+
+      <div class="row">
+        <div class="col-lg-offset-2 col-lg-4 two-columner contact-map">
+          <!-- Embedded Google Map - TODO:: Signed in as Petalier -->
+          <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=27 Therry Street, Melbourne &t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+        </div>
+
+        <div class="col-md-12 col-lg-4 two-columner contact-info">
+          <h3 class='sub-sub-heading'>Collection Point</h3>
+            <p><strong>Zen Apartment</strong></p>
+            <p>27, Therry Street,</p>
+            <p>Melbourne VIC 3000,</p>
+            <p>Australia.</p>
+
+          <h3 class='sub-sub-heading'>Social Media</h3>
+            <p class='social'>
+              <span class="fa fa-facebook-square social-icon"></span>
+              <span class="social-description">facebook.com/the.petalier</span>
+            </p>
+
+            <p class='social'>
+              <span class="fa fa-instagram social-icon"></span>
+              <span class="social-description">instagram.com/the.petalier</span>
+            </p>
+
+            <p class='social'>
+              <span class="fa fa-envelope social-icon"></span>
+              <span class="social-description">thepetalier@gmail.com</span>
+            </p>
+
+            <p class='social'>
+              <span class="fa fa-phone social-icon"></span>
+              <span class="social-description">0420 325 42X</span>
+            </p>
+        </div>
+      </div>
+
+    </div>
   </div>
 
   <!-- Footer -->
@@ -99,7 +141,7 @@
     <span class='footer-content'>@ 2018 The Petalier</span>
   </div>
 
-  <!-- smoothscroll -->
+  <!-- smoothscroll js script -->
   <script src='javascripts/smoothScroll.js'></script>
 </body>
 </html>
