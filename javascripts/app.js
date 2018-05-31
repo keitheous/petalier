@@ -44,7 +44,7 @@ $( document ).ready(function() {
     } else {
       for (var i = 0; i < querySelectors.length; i++) {
         querySelectors[i].addEventListener('click', function(event) {
-          window.open(actionType + ":" + contact)
+          window.open(actionType + ":" + contact, "_blank")
         });
       }
     }
@@ -53,5 +53,5 @@ $( document ).ready(function() {
   applyRedirectionForQuerySelectors(facebookButtons, 'https://www.facebook.com/the.petalier', 'redirection');
   applyRedirectionForQuerySelectors(instagramButtons, 'https://www.instagram.com/the.petalier', 'redirection');
   applyRedirectionForQuerySelectors(mailButton, 'thepetalier@gmail.com', 'mailto');
-  applyRedirectionForQuerySelectors(mailButton, '0420325425', 'tel');
+  applyRedirectionForQuerySelectors(mailButton, '+61420325425', 'tel');
 });
