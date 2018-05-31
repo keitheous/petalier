@@ -46,7 +46,7 @@
 
   .nav-items {
     font-size: 14px;
-    letter-spacing: 3px;
+    letter-spacing: 4px;
     display: none;
     width: 100%;
     padding: 0 0 10px 0;
@@ -54,7 +54,6 @@
   }
 
   .nav-items a {
-      color: black;
       padding-top: 6px;
       text-align: center;
       margin-right: 0;
