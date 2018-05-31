@@ -26,4 +26,32 @@ $( document ).ready(function() {
     }
   });
 
+  // web redirection
+
+  var facebookButtons = document.querySelectorAll('.fa-facebook-square');
+  var instagramButtons = document.querySelectorAll('.fa-instagram');
+  var mailButton = document.querySelectorAll('.fa-envelope');
+  var phoneButton = document.querySelectorAll('.fa-phone');
+
+  var applyRedirectionForQuerySelectors = function(querySelectors, contact, actionType){
+    if (actionType === 'redirection'){
+      for (var i = 0; i < querySelectors.length; i++) {
+        querySelectors[i].addEventListener('click', function(event) {
+          console.log('redirect')
+          window.open(contact, '_blank');
+        });
+      }
+    } else {
+      for (var i = 0; i < querySelectors.length; i++) {
+        querySelectors[i].addEventListener('click', function(event) {
+          window.open(actionType + ":" + contact)
+        });
+      }
+    }
+  }
+
+  applyRedirectionForQuerySelectors(facebookButtons, 'https://www.facebook.com/the.petalier', 'redirection');
+  applyRedirectionForQuerySelectors(instagramButtons, 'https://www.instagram.com/the.petalier', 'redirection');
+  applyRedirectionForQuerySelectors(mailButton, 'thepetalier@gmail.com', 'mailto');
+  applyRedirectionForQuerySelectors(mailButton, '0420325425', 'tel');
 });

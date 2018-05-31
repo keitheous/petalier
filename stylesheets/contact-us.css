@@ -1,0 +1,46 @@
+/* =============== */
+/* Contact Us & Map & Social Media */
+/* =============== */
+
+
+#gmap_canvas {
+  width: 100%;
+  height: 350px !important;
+  padding-top: 10px;
+}
+
+
+.sub-heading {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.sub-sub-heading {
+  padding: 20px 0;
+}
+
+.social {
+  padding-bottom: 10px;
+}
+
+.social-icon {
+  font-size: 18px !important;
+  padding: 0 10px;
+}
+
+.two-columner {
+  min-height: 400px;
+}
+
+@media screen and (max-width: 1200px) {
+  .two-columner {
+    min-height: 200px;
+  }
+}
+
+.social-alternative {
+  display: none;
+}
+
+/* =============== */
+/* =============== */
