@@ -4,6 +4,10 @@ $( document ).ready(function() {
     if ($(window).width() > 860) {
       $('.nav-items').show()
     }
+
+    if (($(window).width() <= 860) && ($('#nav-icon').hasClass("fa-bars") )) {
+      $('.nav-items').hide()
+    }
   });
 
   var expendNavBar = function(){

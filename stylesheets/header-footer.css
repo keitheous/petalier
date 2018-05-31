@@ -43,6 +43,7 @@ h1, h2, h3, p{
 }
 
 .nav-items {
+  z-index: 1000;
   float: right;
   display: inline-block;
   padding: 20px 16px;
