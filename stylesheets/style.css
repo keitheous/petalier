@@ -1,5 +1,5 @@
 html {
-  background-color: #FFFAF0;
+  background-color: #F5F5F5;
   font-family: 'Raleway', sans-serif;
 }
 
@@ -8,13 +8,18 @@ h1, h2, h3, p{
   padding: 0
 }
 
+/* =============== */
+/* Header & Footer */
+/* =============== */
+
 .nav-bar-spacer {
   width: 100%;
   height: 68px;
+  background-color: red;
 }
 
 .nav-bar {
-  background-color: #FFFAF0;
+  background-color: #F5F5F5;
   overflow: hidden;
   padding-left: 50px;
   position: fixed;
@@ -65,6 +70,7 @@ h1, h2, h3, p{
 }
 
 .heading {
+  letter-spacing: 3px;
   text-align: center;
   height: 100%;
   width: 100%;
@@ -97,18 +103,22 @@ a.anchor_offset {
 }
 
 .contact-page {
-  height: 95vh;
+  height: 85vh;
+  background-color: pink;
 }
 
 .footer {
-  background-color: #FFFAF0;
-  overflow: hidden;
+  background-color: #F5F5F5;
+  height: 40px;
   width: 100%;
-  min-height: 5vh;
   text-align: center;
 }
 
 .footer-content {
-  padding: 0 20px;
+  padding: 14px 10px;
+  display: inline-block;
   letter-spacing: 2px;
 }
+
+/* =============== */
+/* =============== */

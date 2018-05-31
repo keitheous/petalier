@@ -20,7 +20,7 @@ $( document ).ready(function() {
       $(this).hasClass("fa-bars") ? expendNavBar() : collapseNavBar()
   })
 
-  $(".nav-items").on('click', function(){
+  $(".nav-items, .nav-brand > a").on('click', function(){
     if ($(window).width() <= 860) {
       collapseNavBar();
     }
