@@ -2,7 +2,8 @@
 
   h1, h2, h3, p{
     margin: 0;
-    padding: 0
+    padding: 0;
+    width: 100% !important;
   }
 
   a.anchor_offset {
@@ -88,7 +89,7 @@
     display: block;
     margin: 0 auto;
     width: 90%;
-    height: 200px !important;
+    height: 300px !important;
     padding-top: 10px;
   }
 
@@ -96,8 +97,9 @@
     min-height: 200px;
   }
 
+
   .contact-info {
-    padding: 0;
+    padding: 0 !important;
     text-align: center;
     min-height: 200px;
   }
@@ -116,8 +118,13 @@
     padding: 10px 15px;
   }
 
-  /* =============== */
-  /* =============== */
+  .contact-lines {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
 
+
+  /* =============== */
+  /* =============== */
 
 }

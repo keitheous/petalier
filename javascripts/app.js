@@ -44,7 +44,7 @@ $( document ).ready(function() {
     } else {
       for (var i = 0; i < querySelectors.length; i++) {
         querySelectors[i].addEventListener('click', function(event) {
-          window.open(actionType + ":" + contact, "_blank")
+          window.open(actionType + ":" + contact)
         });
       }
     }
