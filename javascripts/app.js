@@ -20,8 +20,21 @@ $( document ).ready(function() {
     $('.nav-items').hide();
   }
 
+  var fullShadeOfNav = function(){
+    console.log('full shade')
+    $('.nav-items, .nav-brand').css("background-color", "white");
+  }
+
+  var OpacitizeNav = function(){
+    console.log('opacity shade')
+    // need to figure this out
+    $('.nav-items, .nav-brand, .nav-bar').css("background", "transparent !important");
+  }
+
   $('#nav-icon').on('click', function(){
       $(this).hasClass("fa-bars") ? expendNavBar() : collapseNavBar()
+
+      $(this).hasClass("fa-bars") ? fullShadeOfNav() : OpacitizeNav()
   })
 
   $(".nav-items, .nav-brand > a").on('click', function(){
