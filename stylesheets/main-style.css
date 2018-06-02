@@ -25,7 +25,8 @@ h1, h2, h3, p{
 }
 
 .about-section, .price-list-page, .shop-page, .wedding-page, .faq-page {
-  height: 100vh;
+  min-height: 90vh;
+
 }
 
 .contact-page {
@@ -35,35 +36,4 @@ h1, h2, h3, p{
 
 .two-columner {
   min-height: 400px;
-}
-
-@media screen and (max-width: 1200px) {
-  .two-columner {
-    min-height: 200px;
-  }
-}
-
-@media screen and (max-width: 860px) {
-  h1, h2, h3, p{
-    margin: 0;
-    padding: 0;
-    width: 100% !important;
-  }
-
-  a.anchor_offset {
-    display: block;
-    position: relative;
-    top: -53px;
-    visibility: hidden; }
-
-  .sub-heading {
-    font-size: 20px;
-    text-align: center;
-    padding: 20px 0;
-  }
-
-  .sub-sub-heading{
-    font-size: 14px;
-    font-weight: bold;
-  }
 }
