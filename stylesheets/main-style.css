@@ -24,12 +24,12 @@ h1, h2, h3, p{
   font-weight: bold;
 }
 
-.about-section, .price-list-page, .shop-page, .wedding-page, .faq-page {
+.about-section, .price-list-section, .shop-section, .wedding-section, .faq-section {
   min-height: 90vh;
 
 }
 
-.contact-page {
+.contact-section {
   min-height: 85vh;
   position: relative;
 }
