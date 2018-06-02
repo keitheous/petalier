@@ -17,10 +17,11 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
   <!-- Stylesheets -->
-  <link rel="stylesheet" href="stylesheets/header-footer.css">
+  <!-- <link rel="stylesheet" href="stylesheets/header-footer.css">
   <link rel="stylesheet" href="stylesheets/contact-us.css">
-  <link rel="stylesheet" href="stylesheets/responsive-header-footer.css">
-
+  <link rel="stylesheet" href="stylesheets/responsive-header-footer.css"> -->
+  <!-- <link rel="stylesheet" href="stylesheets/contact-us-responsive.css"> -->
+  <link rel="stylesheet" href="stylesheets/styles.css">
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -102,16 +103,19 @@
       <div class="row">
         <div class="col-lg-offset-1 col-lg-5 col-md-offset-1 col-md-5 two-columner">
           <!-- Embedded Google Map - TODO:: Signed in as Petalier -->
-          <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=zen apartment&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+          <span id="gmap_canvas">
+            placeholder for map
+          </span>
         </div>
 
         <div class="col-lg-offset-1 col-lg-4 col-md-5 two-columner contact-info">
 
           <div class="col-lg-12 col-md-12 col-sm-offset-1 col-sm-12 col-xs-12" style='margin-left:0px'>
-            <h3 class='sub-sub-heading contact-content'>COLLECTION POINT</h3>
 
             <div class="address">
-              <p><strong>ZEN APARTMENTS</strong></p>
+
+              <span class='sub-sub-heading'>COLLECTION POINT</span>
+              <p>ZEN APARTMENTS</p>
               <p>27, THERRY STREET</p>
               <p>MELBOURNE VIC 3000</p>
               <p>AUSTRALIA</p>
@@ -119,7 +123,7 @@
           </div>
 
           <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-            <h3 class='sub-sub-heading'></h3>
+            <!-- <h3 class='sub-sub-heading'></h3> -->
 
               <div class="social-alternative">
                 <span class="social-link"><span class="fa fa-facebook-square"></span></span>
@@ -128,25 +132,25 @@
                 <span class="social-link"><span class="fa fa-phone"></span></span>
               </div>
 
-              <p class='social'>
+              <div class='social'>
                 <span class="fa fa-facebook-square social-icon"></span>
                 <span class="social-description">FACEBOOK.COM/THE.PETALIER</span>
-              </p>
+              </div>
 
-              <p class='social'>
+              <div class='social'>
                 <span class="fa fa-instagram social-icon"></span>
                 <span class="social-description">INSTAGRAM.COM/THE.PETALIER</span>
-              </p>
+              </div>
 
-              <p class='social'>
+              <div class='social'>
                 <span class="fa fa-envelope social-icon"></span>
                 <span class="social-description">THEPETALIER@GMAIL.COM</span>
-              </p>
+              </div>
 
-              <p class='social'>
+              <div class='social'>
                 <span class="fa fa-phone social-icon"></span>
                 <span class="social-description">0420 325 42X</span>
-              </p>
+              </div>
           </div>
         </div>
       </div>

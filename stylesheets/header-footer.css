@@ -1,24 +1,3 @@
-html {
-  background-color: white;
-  font-family: 'Raleway', sans-serif;
-  letter-spacing: 1.5px;
-}
-
-body {
-  background-color: #F5F5F5
-  /* background-color: red; */
-
-}
-
-h1, h2, h3, p{
-  margin: 0;
-  padding: 0
-}
-
-/* =============== */
-/* Header & Footer */
-/* =============== */
-
 .nav-bar-spacer {
   width: 100%;
   height: 68px;
@@ -42,7 +21,6 @@ h1, h2, h3, p{
 
 .nav-brand  a {
   color: black;
-;
 }
 
 .nav-brand a:hover {
@@ -65,10 +43,6 @@ h1, h2, h3, p{
 
 .nav-items a:hover {
   text-decoration: underline;
-}
-
-.active {
-    text-decoration: underline;
 }
 
 #nav-icon {
@@ -110,17 +84,9 @@ a.anchor_offset {
   top: -68px;
   visibility: hidden; }
 
-.about-section, .price-list-page, .shop-page, .wedding-page, .faq-page {
-  height: 100vh;
-}
-
-.contact-page {
-  min-height: 85vh;
-  position: relative;
-}
 
 .footer {
-  background-color: #F5F5F5;
+  background-color: white;
   height: 40px;
   width: 100%;
   text-align: center;
@@ -131,5 +97,3 @@ a.anchor_offset {
   display: inline-block;
   letter-spacing: 2px;
 }
-/* =============== */
-/* =============== */

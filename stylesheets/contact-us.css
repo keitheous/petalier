@@ -1,31 +1,17 @@
-/* =============== */
-/* Contact Us & Map & Social Media */
-/* =============== */
-
-
 #gmap_canvas {
-  width: 100%;
+  background-color: white;
+  min-height: 200px;
+  width: 100% !important;
   height: 350px !important;
   padding-top: 10px;
 }
 
-
-.sub-heading {
-  font-family: "Times New Roman", Times, serif;
-  text-align: center;
-  padding: 40px 0;
-}
-
 .address {
-  padding-left: 10px;
-}
-
-.sub-sub-heading {
-  padding: 20px 0;
+  padding: 0 0 20px 10px;
 }
 
 .social {
-  padding-bottom: 10px;
+  padding: 10px 0;
 }
 
 .social-icon {
@@ -33,24 +19,6 @@
   padding: 0 10px;
 }
 
-.two-columner {
-  min-height: 400px;
-}
-
-@media screen and (max-width: 1200px) {
-  .two-columner {
-    min-height: 200px;
-  }
-}
-
 .social-alternative {
   display: none;
 }
-
-.contact-content {
-  padding-right: 0 !important;
-  padding-left: 0 !important;
-}
-
-/* =============== */
-/* =============== */
