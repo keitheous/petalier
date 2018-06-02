@@ -18,17 +18,15 @@ $( document ).ready(function() {
   var collapseNavBar = function(){
     $('#nav-icon').addClass('fa-bars').removeClass('fa-times');
     $('.nav-items').hide();
+    fullShadeOfNav();
   }
 
   var fullShadeOfNav = function(){
-    console.log('full shade')
-    $('.nav-items, .nav-brand').css("background-color", "white");
+    $('.nav-bar').css("background", "rgba(255,255,255, 1)");
   }
 
   var OpacitizeNav = function(){
-    console.log('opacity shade')
-    // need to figure this out
-    $('.nav-items, .nav-brand, .nav-bar').css("background", "transparent !important");
+    $('.nav-bar').css("background", "rgba(255,255,255, 0.7)");
   }
 
   $('#nav-icon').on('click', function(){
