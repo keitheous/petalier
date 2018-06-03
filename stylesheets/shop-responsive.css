@@ -2,6 +2,7 @@
   .img-on-hover {
     width: 95%;
     height: auto;
+    position: absolute;
   }
 
   .product-item {
