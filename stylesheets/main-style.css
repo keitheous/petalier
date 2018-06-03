@@ -43,7 +43,6 @@ h1, h2, h3, p{
   align-items: center;
   justify-content: center;
   height: 60px;
-
 }
 
 .btn {
@@ -53,12 +52,12 @@ h1, h2, h3, p{
   background: tan;
   width: 200px;
   height: 60px;
-  margin: 50px;
-  display: block;
+  margin: 10px 0;
   text-align: center;
   font-size: 15px;
   letter-spacing: 2px;
   text-decoration: none;
+  padding: 18px 0;
 }
 
 .container a {
@@ -66,5 +65,5 @@ h1, h2, h3, p{
 }
 
 .btn.focus, .btn:focus, .btn:hover{
-  color: red;
+  color: white;
 }
